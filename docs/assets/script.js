@@ -46,7 +46,7 @@ function mostrarPokemones (pokemon) {
                     <p><h3>${pokemon.name}</h3></p>
                     <P>ID: ${pokemon.id}</p>
                     <p>Tipo: ${pokemon.types[0].type.name}</p>
-
+                    ${pokemon.types[1] != undefined ? `<p>Tipo: ${pokemon.types[1].type.name}</p>` : ""}
                     </div>
                 </div>`;
 }

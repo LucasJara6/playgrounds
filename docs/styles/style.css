@@ -17,6 +17,9 @@ body{
 h1,h3{
     font-family: 'Bangers'
 }
+#botonB{
+    font-family: 'Bangers'
+}
 #pokemonsList{
     display: flex;
     background-color: #581845;
